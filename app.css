@@ -1,0 +1,58 @@
+/* Add font here */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+/* Element being selected */
+h1 {
+    /* How to style it */
+    /* color: cornflowerblue; */
+    font-weight:800;
+    text-transform: uppercase;
+    border-top: 5px solid black;
+    font-size: 70px;
+}
+
+body {
+    background-color: #8dbbd7;
+    color: blueviolet;
+    font-family: "Aboreto";
+    font-weight:200;
+}
+
+img {
+    height: 500px;
+    width: 750px;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: #8dbbd7;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Aboreto";
+    border: 1px solid blueviolet;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
