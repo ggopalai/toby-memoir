@@ -4,9 +4,9 @@ var pics = [
     "images/toby3.JPG",
     "images/toby4.JPG",
     "images/toby5.JPG",
-    "images/toby6.JPG",
-    "images/toby7.JPG",
-    "images/toby8.JPG"
+    "images/toby6.jpg",
+    "images/toby7.jpg",
+    "images/toby8.jpg"
 ];
 
 var btn = document.querySelector("button");
